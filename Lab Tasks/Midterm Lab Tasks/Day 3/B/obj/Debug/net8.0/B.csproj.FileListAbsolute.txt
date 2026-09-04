@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\bin\Debug\net8.0\B.exe
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\bin\Debug\net8.0\B.deps.json
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\bin\Debug\net8.0\B.runtimeconfig.json
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\bin\Debug\net8.0\B.dll
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\bin\Debug\net8.0\B.pdb
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\obj\Debug\net8.0\B.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\obj\Debug\net8.0\B.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\obj\Debug\net8.0\B.AssemblyInfo.cs
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\obj\Debug\net8.0\B.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\obj\Debug\net8.0\B.dll
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\obj\Debug\net8.0\refint\B.dll
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\obj\Debug\net8.0\B.pdb
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\obj\Debug\net8.0\B.genruntimeconfig.cache
+C:\Users\User\Desktop\C# University\Midterm Lab Tasks\Day 3\B\obj\Debug\net8.0\ref\B.dll

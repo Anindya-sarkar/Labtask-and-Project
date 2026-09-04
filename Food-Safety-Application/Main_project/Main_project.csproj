@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Main_project</RootNamespace>
+    <AssemblyName>Main_project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPage.Designer.cs">
+      <DependentUpon>AdminPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFoodManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFoodManagement.Designer.cs">
+      <DependentUpon>AdminFoodManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminComplaintsManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminComplaintsManagement.Designer.cs">
+      <DependentUpon>AdminComplaintsManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAdditivesManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAdditivesManagement.Designer.cs">
+      <DependentUpon>AdminAdditivesManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUsersManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUsersManagement.Designer.cs">
+      <DependentUpon>AdminUsersManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncidentsArchive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncidentsArchive.Designer.cs">
+      <DependentUpon>IncidentsArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FoodSafetyEntity.cs" />
+    <Compile Include="SessionManager.cs" />
+    <Compile Include="DatabaseHelper.cs" />
+    <Compile Include="Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage.Designer.cs">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Additive.cs" />
+    <Compile Include="Models\Complaint.cs" />
+    <Compile Include="Models\Food.cs" />
+    <Compile Include="FoodSafetyMain.cs" />
+    <Compile Include="Models\Incident.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserComplaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserComplaint.Designer.cs">
+      <DependentUpon>UserComplaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Page.Designer.cs">
+      <DependentUpon>User_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_SignUp.Designer.cs">
+      <DependentUpon>User_SignUp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminPage.resx">
+      <DependentUpon>AdminPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserComplaint.resx">
+      <DependentUpon>UserComplaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Page.resx">
+      <DependentUpon>User_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_SignUp.resx">
+      <DependentUpon>User_SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFoodManagement.resx">
+      <DependentUpon>AdminFoodManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminComplaintsManagement.resx">
+      <DependentUpon>AdminComplaintsManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAdditivesManagement.resx">
+      <DependentUpon>AdminAdditivesManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUsersManagement.resx">
+      <DependentUpon>AdminUsersManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncidentsArchive.resx">
+      <DependentUpon>IncidentsArchive.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FS_Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FS_HPimage4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FS_HPimage3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FS_HPimage2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FS_HPimage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
